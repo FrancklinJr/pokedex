@@ -3,7 +3,7 @@
 > Uma Pokédex web interativa e responsiva, feita com **HTML, CSS e JavaScript puro** (sem frameworks), consumindo a [PokéAPI](https://pokeapi.co).
 > *An interactive, responsive web Pokédex built with **vanilla HTML, CSS & JavaScript**, powered by the [PokéAPI](https://pokeapi.co).*
 
-🔗 **[Ver demo ao vivo / Live demo](https://SEU-USUARIO.github.io/pokedex)**
+🔗 **[Ver demo ao vivo / Live demo](https://francklinjr.github.io/pokedex/)**
 
 ## 🇧🇷 Português
 
