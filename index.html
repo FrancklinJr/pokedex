@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="logo">POKÉDEX</div>
+            <div class="tagline">Gotta search 'em all</div>
+        </header>
+
+        <div class="search-row">
+            <input id="search" type="text" placeholder="Nome ou número (ex: pikachu, 25)" autocomplete="off">
+            <button id="go">Buscar</button>
+            <div class="suggestions" id="suggestions"></div>
+        </div>
+
+        <div class="nav-row">
+            <button class="nav-btn" id="prev">← Anterior</button>
+            <button class="nav-btn" id="gridBtn">▦ Ver grade</button>
+            <button class="nav-btn" id="next">Próximo →</button>
+        </div>
+
+        <div class="card" id="card">
+            <div class="placeholder">
+                <div class="pokeball"></div>
+                <p>Busque um Pokémon para começar</p>
+            </div>
+        </div>
+
+        <p class="hint">Dica: clique no sprite pra ouvir o grito · use ← → pra navegar</p>
+
+        <footer>Dados via <a href="https://pokeapi.co" target="_blank">PokéAPI</a> · feito com HTML, CSS &amp; JS
+        </footer>
+    </div>
+
+    <div class="grid-overlay" id="gridOverlay">
+        <div class="grid-head">
+            <h2>Escolha um Pokémon</h2>
+            <button class="grid-close" id="gridClose">Fechar ✕</button>
+        </div>
+        <div class="grid" id="grid"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
